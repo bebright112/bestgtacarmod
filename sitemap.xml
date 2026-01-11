@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bestgtacarmod.com/</loc>
+    <loc>https://bestgtacarmod.com/home</loc>
+    <loc>https://bestgtacarmod.com/home/index.html</loc>
   </url>
 
   <url>
-    <loc>https://bestgtacarmod.com/shop/</loc>
+    <loc>https://bestgtacarmod.com/shop/index.html</loc>
+    <loc>https://bestgtacarmod.com/shop</loc>
   </url>
 
 </urlset>
+
