@@ -44,6 +44,15 @@ const PRODUCTS = [
     link: "products/21x90.html",
     badge: "Free",
   },
+  {
+    name: "Cadillac V-Series LMDH 2023",
+    price: "$0.00",
+    tags: ["new", "race", "cadil", "free"],
+    isFree: true,
+    image: "https://ik.imagekit.io/fhh6vyvfq/23vlmdh.png",
+    link: "products/23vlmdh.html",
+    badge: "Free",
+  },
 ];
 
 function escapeHtml(str) {
@@ -129,3 +138,4 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts(PRODUCTS);
 });
+
