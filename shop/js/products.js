@@ -2,11 +2,11 @@ const PRODUCTS = [
   {
     name: "Toyota Century 2021",
     price: "$20.00",
-    tags: ["new", "toyota", "sedan"],
+    tags: ["toyota", "sedan"],
     isFree: false,
     image: "https://ik.imagekit.io/fhh6vyvfq/21cen.png",
     link: "products/21century.html",
-    badge: "NEW",
+    badge: "Toyota",
   },
   {
     name: "Hyundai Palisade 2026",
@@ -47,11 +47,20 @@ const PRODUCTS = [
   {
     name: "Cadillac V-Series LMDH 2023",
     price: "$0.00",
-    tags: ["new", "race", "cadil", "free"],
+    tags: ["race", "cadil", "free"],
     isFree: true,
     image: "https://ik.imagekit.io/fhh6vyvfq/23vlmdh.png",
     link: "products/23vlmdh.html",
     badge: "Free",
+  },
+  {
+    name: "Hyundai Nexo 2026",
+    price: "$25.00",
+    tags: ["new", "race", "hyundai", "suv", "ev"],
+    isFree: true,
+    image: "https://ik.imagekit.io/fhh6vyvfq/fr.png",
+    link: "products/26nexo.html",
+    badge: "NEW",
   },
 ];
 
@@ -138,4 +147,5 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts(PRODUCTS);
 });
+
 
