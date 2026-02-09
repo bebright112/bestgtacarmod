@@ -56,10 +56,19 @@ const PRODUCTS = [
   {
     name: "Hyundai Nexo 2026",
     price: "$25.00",
-    tags: ["new", "race", "hyundai", "suv", "ev"],
+    tags: ["new", "hyundai", "suv", "ev"],
     isFree: true,
     image: "https://ik.imagekit.io/fhh6vyvfq/fr.png",
     link: "products/26nexo.html",
+    badge: "NEW",
+  },
+  {
+    name: "Hyundai Ioniq6 N 2026",
+    price: "$25.00",
+    tags: ["new", "race", "hyundai", "sedan", "ev"],
+    isFree: true,
+    image: "https://ik.imagekit.io/fhh6vyvfq/26ioniq6n/fr.png",
+    link: "products/26ioniq6n.html",
     badge: "NEW",
   },
 ];
@@ -147,5 +156,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts(PRODUCTS);
 });
+
 
 
